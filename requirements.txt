@@ -1,6 +1,16 @@
 streamlit
 tensorflow
+keras
 numpy
 opencv-python
 Pillow
 joblib
+scikit-learn
+matplotlib
+pandas
+scipy
+seaborn
+requests
+flask
+tqdm
+pyyaml
