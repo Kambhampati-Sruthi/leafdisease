@@ -6,8 +6,8 @@ import cv2
 from PIL import Image
 import joblib
 # Load model and class labels
-model = tf.keras.models.load_model('C:/AI lab/leaf_disease_model.h5')
-CLASS_NAMES = joblib.load('C:/AI lab/class_labels.joblib')
+model = tf.keras.models.load_model("leaf_disease_model.h5")
+CLASS_NAMES = joblib.load("class_labels.joblib")
 
 # Streamlit UI
 st.title("Leaf Disease Detection")
